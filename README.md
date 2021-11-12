@@ -8,7 +8,7 @@ Assignment is performed using:</b>
 Windows OS,Android Studio,Espresso,Kotlin,JUnit,Git,API level 28 android version 9 emulator.
 
 For this assignment I have created the class Maintest to run the passing tests. These tests can be run individualy or a a group by running the tests from class MainTest.
-This class uses some other functions and is extended by the class BaseTest, which has a built in rule to start the app everytime a test is run.The Maintest class also imports some helper classes like MainHelper and Utilities classes.
+This class uses some other functions and is extended by the class BaseTest, which has a built in rule to start the app everytime a test is run.The Maintest class also imports some helper classes like MainPage and Utilities classes.
 
 The other test runner class I have created is NegativeCasesTest and through this class we can run the negative tests, by testing and asserting unexpected values.
 Negative testing ensures that your application can gracefully handle invalid input or unexpected user behavior.
